@@ -65,7 +65,7 @@ button:hover {
 
 .dark-mode-toggler {
   position: fixed;
-  top: 15px;
+  top: 20px;
   right: 5px;
 }
 .dark-mode-toggler label {
