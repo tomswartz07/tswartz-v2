@@ -1,4 +1,4 @@
-let colors = ['#73186e', '#2a0d6a', '#ff2026', '#e9bc3f'];
+let colors = ['#73186e', '#10a2f5', '#ff2026', '#e9bc3f'];
 
 (function() {
   setModeEventListener();
