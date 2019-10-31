@@ -185,3 +185,9 @@ a:hover {
 .bio.show {
   display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: grayscale(30%);
+  }
+}
