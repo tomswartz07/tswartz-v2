@@ -187,6 +187,10 @@ a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #c3c6ca;
+  }
   img {
     filter: grayscale(30%);
   }
