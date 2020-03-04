@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tom Swartz</title>
+    <meta class="local" name="author" content="Tom Swartz" />
+    <meta class="local" name="description" content="Hand-made Hot Sauces by Tom Swartz" />
+    <meta class="local" name="image" content="https://avatars0.githubusercontent.com/u/582862?v=3&s=460" />
+    <meta charset="UTF-8">
+
+    <!-- Favicon/theme -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="/img/manifest.json" />
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#24d05a" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <meta name="msapplication-config" content="/img/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Twitter data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@tswartz07" />
+    <meta name="twitter:title" content="Hand made, small batch hot sauces by Tom Swartz" />
+    <meta name="twitter:description" content="Locally grown, small batch hot sauces made by Tom Swartz in Lancaster, PA" />
+    <meta name="twitter:creator" content="@tswartz07" />
+    <meta name="twitter:image" content="https://avatars0.githubusercontent.com/u/582862?v=3&s=460" />
+    <meta name="twitter:image:alt" content="Picture of Tom Swartz" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-section">
+        <div class="header-frame">
+          <h1>Hot Sauces</h1>
+          <h2>Small batch and locally grown in Lancaster, Pennsylvania</h2>
+        </div>
+        <div class="img-frame">
+          <img id="propic" src="" alt="" />
+        </div>
+      </div>
+      <div class="bio-switcher">
+        <!-- I'm lazy and re-using the div id's from the main page here, for now -->
+        <div class="toggler">
+          <button id="short" class="show">TL;DR</button>
+          <button id="long">Long</button>
+          <button id="speaker">Speaker</button>
+        </div>
+        <div class="bio short show">
+          Hi! My name is Tom and I'm a Software Engineer and Support Specialist
+          at <a href="https://www.crunchydata.com">Crunchy Data</a>. I like fountain pens,
+          mechanical keyboards, amateur radio, and making things.
+        </div>
+        <div class="bio long">
+          Heyo!<br/>My name is Tom and I'm a Software Engineer and Support
+          Specialist at <a href="https://www.crunchydata.com">Crunchy
+          Data</a>.<br/> Before now, I worked as a Building Technology
+          Support Specialist at <a href="https://www.pennmanor.net/">Penn
+          Manor School District</a> in Lancaster, Pennsylvania and before
+          that, I graduated with a B.S. in Physics from The University of
+          Scranton in 2011.<br/> In my spare time, I enjoy building mechanical
+          keyboards, writing things down with fancy fountain pens, making
+          homemade hot sauces, modifying hardware, playing around with
+          amateur radio, and experimenting with Software Defined Radio.<br/>
+          In terms of where I am on the internet (and off), you might have
+          seen me involved with Lancaster-area Technology groups, such as
+          <a href="https://techlancaster.com/">TechLancaster</a>, or giving
+          one of many talks at <a href="http://cposc.org/">CPOSC</a>.
+          I spend a lot of time working on tiny little projects,
+          many of which are posted and available on my public
+          <a href="https://github.com/tomswartz07/">GitHub
+          page</a> and I sometimes rant about technology on <a
+          href="http://twitter.com/tswartz07">Twitter</a>. I'm excited to be a
+          part of the Lancaster area technology scene and I would love to hear
+          from you.
+        </div>
+        <div class="bio speaker">
+          Tom is a developer and support specialist with Crunchy Data,
+          programming software for and around PostgreSQL databases. An avid
+          speaker, he as participated in many years of Central Pennsylvania Open
+          Source Conferences, TechLancaster events, and other events in and
+          around Central Pennsylvania. He is an avid enthusiast of mechanical
+          keyboards, amateur radio, and is a passionate advocate for free and
+          open source software.
+        </div>
+      </div>
+      <div class="links">
+        <a href="http://github.com/tomswartz07">github</a>
+        <a href="http://twitter.com/tswartz07">twitter</a>
+        <a href="mailto:tom@tswartz.net">email</a>
+      </div>
+    </div>
+    <div class="dark-mode-toggler">
+      <input type="checkbox" id="toggler" />
+      <label for="toggler" aria-label="Toggler for Dark Mode"></label>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
